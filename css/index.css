@@ -1,0 +1,21 @@
+        body{
+            background-color: lightblue;
+            border-style: double;
+            border-color: honeydew;
+        }
+        body{
+            text-align: center;
+        }
+        ol {
+            color:firebrick;
+
+        }
+        #BLVCK {
+            color:black;
+        }
+        .thediv {
+            background-color: silver;
+            border-style: groove;
+            border-radius: 2px;
+            border-color: black
+        }

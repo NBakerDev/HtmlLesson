@@ -2,11 +2,22 @@
 <html lang="en">
     <head>
     <title>Hello HTML World?</title>
+    <link href="css/index.css" type ="text/css" rel="stylesheet">
     </head>
+       <div class = "thediv">
         <body>
             <h1>My first HTML page.</h1>
-            <h3>Go Colts!</h3>
-
+            <h2>Go Colts!</h2>
+           <h3>List of tech</h3>
+            <ol>
+                <li>Git/Github</li>
+                <li>SQL</li>
+                <li id = "BLVCK">C#</li>
+                <li>HTML/CSS/JavaScript</li>
+                <li>Angular</li>
+            </ol>
+        </div>
+            <div>
             <table>
                 <thead>
                     <tr>
@@ -36,12 +47,17 @@
                         <td>Purple</td>
                         <td>13</td>
                     </tr>
+                    <tr>
                         <td>Justin</td>
                         <td>Red</td>
                         <td>18</td>
+                    </tr>
+                    <tr>
                         <td>Nick</td>
                         <td>White</td>
                         <td>4</td>
+                    </tr>
+                    <tr>
                         <td>Phil</td>
                         <td>Yellow</td>
                         <td>29</td>
@@ -49,8 +65,63 @@
                 </tbody>
                 <tfoot></tfoot>
             </table>
-
+            <hr>
+            <br>
+            <table>
+                <thead>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Thoughts</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Git/Github</td>
+                        <td>Source Control</td>
+                        <td>Easy</td>
+                    </tr>
+                    <tr>
+                        <td>SQL</td>
+                        <td>Database</td>
+                        <td>Easy</td>
+                    </tr>
+                    <tr>
+                        <td>C#</td>
+                        <td>High Level OOP</td>
+                        <td>Hard</td>
+                    </tr>
+                    <tr>
+                        <td>HTML/CSS/JS</td>
+                        <td>Web Development</td>
+                        <td>Medium</td>
+                    </tr>
+                    <tr>
+                        <td>Angular</td>
+                        <td>FrontEnd to BackEnd</td>
+                        <td>Hard</td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr>
+        </div>
+        <div>
+            <h3>Using the <code>input</code> tag</h3>
+        <ul>
+            <input size = "130" type="text" value="This is the default text">
+        </ul>
+        </div>
+            <br>
+            Password: <input id="pwd" type="password" value="bleh">
             <a href="https://github.com/NBakerDev/HtmlLesson" target="_blank">My Github</a>
+            <br>
+            <div>
+                <button onclick="displayInputValue('pwd')">Click Me</button>
+            </div>
+            <h3>Drop Down Lists</h3>
+            <select>
+                <option value="100">uno</option>
+                <option value="200">dos</option>
+                <option value="300">tres</option>
+            </select>
             <p><b>Yo</b> Whaddup</p>
             <p><i>Bro</i> Can I hit ur Juul?</p>
 
